@@ -8,7 +8,6 @@ FetchContent_Declare(
     raylib
     GIT_REPOSITORY https://github.com/raysan5/raylib.git
     GIT_TAG        6.0
-    SOURCE_DIR     ${CMAKE_SOURCE_DIR}/lib/raylib   # lands in lib/
 )
 
 FetchContent_MakeAvailable(raylib)
