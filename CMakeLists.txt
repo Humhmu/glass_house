@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(glass_house LANGUAGES C)
+project(glass_house LANGUAGES CXX)
 
 
 include(FetchContent)
@@ -12,5 +12,5 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(raylib)
 
-add_executable(${PROJECT_NAME} src/main.c)
+add_executable(${PROJECT_NAME} src/main.cpp)
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)

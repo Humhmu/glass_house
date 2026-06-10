@@ -1,6 +1,6 @@
-#include "stdio.h"
+#include <iostream>
 
 int main(int argc, char *argv[]) {
-  printf("hey\n");
+  std::cout << "hey\n";
   return 0;
 }
