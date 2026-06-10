@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 4.0)
-project(glass_house)
+cmake_minimum_required(VERSION 3.20)
+project(glass_house LANGUAGES C)
 
 
 include(FetchContent)
